@@ -17,22 +17,22 @@
                 Electronics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <a href="" class="dropdown-item"><span><i class="fas fa-laptop"></i></span> Laptops</a>
-                <a href="" class="dropdown-item"><span><i class="fas fa-mobile-alt"></i></span> Smartphones</a>
-                <a href="" class="dropdown-item"><i class="fas fa-watch"></i> Smartwatches</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=laptops" class="dropdown-item">Laptops</a>
+                <a href="{% url 'products' %}?category=smartphones" class="dropdown-item">Smartphones</a>
+                <a href="{% url 'products' %}?category=smartwatches" class="dropdown-item">Smartwatches</a>
+                <a href="{% url 'products' %}?category=laptops,smartphones,smartwatches" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Sale
+                Sale!
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Laptops sale!<i class="fas fa-laptop"></i></a>
-                <a href="" class="dropdown-item">Smartphones sale!<i class="fas fa-mobile-alt"></i></a>
-                <a href="" class="dropdown-item"><i class="fas fa-watch"></i> Smartwatches sale!</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products on sale</a>
+                <a href="{% url 'products' %}?category=laptops_sale" class="dropdown-item">Laptops sale!<i class="fas fa-laptop"></i></a>
+                <a href="{% url 'products' %}?category=smartwatches_sale" class="dropdown-item">Smartphones sale!<i class="fas fa-mobile-alt"></i></a>
+                <a href="{% url 'products' %}?category=smartwatches_sale" class="dropdown-item"><i class="fas fa-watch"></i> Smartwatches sale!</a>
+                <a href="{% url 'products' %}?category=laptops_sale,smartphones_sale,smartwatches_sale" class="dropdown-item">All Products on sale</a>
             </div>
         </li>
 
