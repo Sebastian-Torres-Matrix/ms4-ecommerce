@@ -4,13 +4,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001340155",
-      "name": "Arizona Original Bootcut Jeans",
-      "description": "",
-      "price": 53.99,
-      "category": 6,
+      "name": "Lenovo IdeaPad Flex 5 14",
+      "description": "10th Generation Intel Core i5-1035G1 Processor, Intel UHD graphics, 8GB memory, and 128GB SSD storage The 360⁰ hinge lets you quickly convert this 2-in-1 laptop from a notebook to a tablet! Put it in any position you like for creativity, sharing, or binging streaming media 14-inch FHD (1920 x 1080) IPS touchscreen with narrow bezels delivers clear, crisp images. Enjoy great sound with 2 x 2W Speakers with Dolby Audio The webcam physical privacy shutter and fingerprint reader help keep you safe and protect your privacy Connect with 2x2 WiFi 6 (802.11 ax) and Bluetooth 4.2. Ports include 2 USB-A, 1 USB-C, HDMI, a 4-in-1 card reader, and an audio jack",
+      "price": 729.99,
+      "category": 1,
       "rating": 4.6,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71lO1q9ItFL._AC_SL1500_.jpg",
+      "image": "url('https://images-na.ssl-images-amazon.com/images/I/71lO1q9ItFL._AC_SL1500_.jpg')"
     }
   },
   {
@@ -18,13 +18,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001600425",
-      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
-      "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
-      "price": 58.99,
-      "category": 4,
+      "name": "Acer Aspire 5 A515-55-56VK, 15.6",
+      "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+       "price": 549.99,
+      "category": 1,
       "rating": 4.6,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71S-XwHaGzL._AC_SL1500_.jpg",
+      "image": "laptop2.png"
     }
   },
   {
@@ -32,13 +32,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001730010",
-      "name": "Royal Velvet Matte Satin Square 3-pc. Coverlet Set",
-      "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
-      "price": 205.99,
+      "name": "Laptop 15.6 inch Notebook",
+      "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+      "price": 505.99,
       "category": 1,
       "rating": 4.7,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71OyTukMdzL._AC_SL1500_.jpg",
+      "image": "laptop3.png"
     }
   },
   {
@@ -46,13 +46,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001890157",
-      "name": "Gibson Infinite Glaze 16-pc. Dinnerware Set",
-      "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-      "price": 169.99,
-      "category": 3,
+      "name": "ASUS VivoBook 15",
+      "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+    "price": 469.99,
+      "category": 1,
       "rating": 3,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81fstJkUlaL._AC_SL1500_.jpg",
+      "image": "laptop4.png"
     }
   },
   {
@@ -60,13 +60,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002111605",
-      "name": "Simply Calphalon Enameled Cast Iron Panini Pan",
-      "description": "Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ",
-      "price": 232.99,
-      "category": 8,
+      "name": "Dell Inspiron 15",
+       "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+  "price": 532.99,
+      "category": 1,
       "rating": 5,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/41h-%2BcZSL9L._AC_.jpg",
+      "image": "laptop5.png"
     }
   },
   {
@@ -74,13 +74,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002260206",
-      "name": "The Foundry Supply Co. Solid Pocket TeeBig & Tall",
-      "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
-      "price": 30.99,
-      "category": 9,
+      "name": "HP Pavilion Intel Pentium Silver N5000",
+       "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+      "price": 630.99,
+      "category": 1,
       "rating": 4.7,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/717ywJDnAHL._AC_SL1500_.jpg",
+      "image": "laptop6.png"
     }
   },
   {
@@ -88,41 +88,377 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002440521",
-      "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-      "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
-      "price": 59,
-      "category": 4,
+      "name": "LG Ultra PC High Performance Laptop 17",
+        "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+     "price": 459.99,
+      "category": 1,
       "rating": 4.4,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/8182Y3AdSfL._AC_SL1500_.jpg",
+      "image": "laptop7.png"
     }
   },
   {
     "pk": 8,
     "model": "products.product",
     "fields": {
-      "sku": "pp5002601115",
-      "name": "Rachael Ray Ceramic Olive Oil Dispenser",
-      "description": "This olive oil dispenser is designed for storing extra virgin olive oil, so it's close at hand for drizzling on food.  24-ounce capacity cruet opaque bottle and non-porous glazed interior keep oil in the dark to avoid oxidation and preserve taste playful, contemporary design Stoneware. Dishwasher-safe. Imported.",
-      "price": 36.99,
-      "category": 9,
+      "sku": "pp5002651115",
+      "name": "Lenovo T460s Ultrabook 20FA 14",
+       "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+      "price": 546.99,
+      "category": 4,
       "rating": 4.5,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/614QpphX6mL._AC_SL1000_.jpg",
+      "image": "laptop8.png"
     }
   },
   {
     "pk": 9,
     "model": "products.product",
     "fields": {
-      "sku": "pp5002690715",
-      "name": "Protech Performance Sheet Set",
-      "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
+      "sku": "pp5055990715",
+      "name": " HP Pavilion x360 14 FHD WLED Touchscreen",
+       "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+      "price": 669.99,
+      "category": 4,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81LaRDm7leL._AC_SL1500_.jpg",
+      "image": "laptop9.png"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp50151340155",
+      "name": "Acer Nitro 5 Gaming Laptop",
+       "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+      "price": 553.99,
+      "category": 4,
+      "rating": 4.6,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71s1LRpaprL._AC_SL1500_.jpg",
+      "image": "laptop10.png"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003306425",
+      "name": "HP Envy x360 Convertible 15.6-inch",
+       "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+      "price": 582.99,
+      "category": 4,
+      "rating": 4.6,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/51CYVygZPZL._AC_SL1024_.jpg",
+      "image": "laptop11.png"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5021744010",
+      "name": "Smartbook A116 High-Performance 11.6 inch",
+       "description": "10th Generation Intel Core i5-1035G1 Processor (Up to 3.6GHz)| 8GB DDR4 Memory | 256GB NVMe SSD 15.6 Full HD (1920 x 1080) widescreen LED backlit IPS Display | Intel UHD Graphics Intel Wireless Wi-Fi 6 AX201 802.11ax | Backlit Keyboard | Fingerprint Reader | HD Webcam | Up to 8 Hours Battery Life 1 -USB 3.1 (Type-C) Gen 1 port (up to 5 Gbps), 2 - USB 3.1 Gen 1 Port (one with Power-off Charging), 1 - USB 2.0 Port & 1 - HDMI Port with HDCP Support Win dows 10 Home",
+      "price": 495.99,
+      "category": 4,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61M76tmy8ZL._AC_SL1000_.jpg",
+      "image": "laptop12.png"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890457",
+      "name": "Samsung Galaxy A01",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+    "price": 269.99,
+      "category": 2,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61gxAIP-W5L._AC_SL1500_.jpg",
+       "image": "smartphone1.png"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002141605",
+      "name": "Samsung Galaxy S20 Ultra 5G",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 232.99,
+      "category": 2,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61HvBIid3lL._AC_SL1500_.jpg",
+       "image": "smartphone2.png"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002268206",
+      "name": "Nokia 7.2 Android 9.0 Pie",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 300.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81Ryoo5ewOL._AC_SL1500_.jpg",
+       "image": "smartphone3.png"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006440521",
+      "name": "Nokia 6.2 - Android 9.0 Pie",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 359.99,
+      "category": 2,
+      "rating": 4.4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61uxQNJ2D6L._AC_SL1000_.jpg",
+       "image": "smartphone4.png"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5008601115",
+      "name": "Samsung Galaxy Note20 5G",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 362.99,
+      "category": 2,
+      "rating": 4.5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81uteSzwW0L._AC_SL1500_.jpg",
+       "image": "smartphone5.png"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002190715",
+      "name": "Motorola Moto G9 Plus",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 369.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61Jyl73n5KL._AC_SL1000_.jpg",
+        "image": "smartphone6.png"
+    }
+  },
+    {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001320155",
+      "name": "BLU G90 Pro",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 153.99,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81cwIdlEXwL._AC_SL1500_.jpg",
+       "image": "smartphone7.png"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600465",
+      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 158.99,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "",
+       "image": "smartphone8.png"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001734010",
+      "name": "Xiaomi Redmi Note 9",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 105.99,
+      "category": 5,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81AczAgBE1L._AC_SL1500_.jpg",
+       "image": "smartphone9.png"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001230157",
+      "name": "UMIDIGI S5 Pro",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
       "price": 169.99,
+      "category": 5,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61uBU%2BNdDYL._AC_SL1000_.jpg",
+        "image": "smartphone10.png"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002119805",
+      "name": "Xiaomi Redmi Note 9 Pro",
+      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
+      "price": 232.99,
+      "category": 5,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61VTwVvavNL._AC_SL1000_.jpg",
+         "image": "smartphone11.png"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5232260206",
+      "name": "Willful Smart Watch",
+      "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",
+      "price": 64.99,
       "category": 3,
       "rating": 4.7,
-      "image_url": "",
-      "image": "noimage.png"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/51oAPLRW9DL._AC_SL1000_.jpg",
+       "image": "smartwatch1.png"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002456521",
+      "name": "Virmee Smart Watch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!", 
+    "price": 49.99,
+      "category": 3,
+      "rating": 4.4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/716bmsFN4hL._AC_SL1500_.jpg",
+       "image": "smartwatch2.png"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002608815",
+      "name": "Tinwoo Smart Watch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",
+  "price": 86.99,
+      "category": 3,
+      "rating": 4.5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61nlZBESq0L._AC_SL1000_.jpg",
+        "image": "smartwatches3.png"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002692115",
+      "name": "Willful Smart Watch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",
+      "price": 69.99,
+      "category": 3,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/51Gn97aDMoL._AC_SL1000_.jpg",
+       "image": "smartwatches4.png"
+    }
+  },
+    {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001222155",
+      "name": "Ticwatch S2 Waterproof Smartwatch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",     
+      "price": 43.99,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61WlgAiQZ9L._AC_SL1000_.jpg",
+        "image": "smartwatches5.png"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340425",
+      "name": "AMATAGE Smart Watch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",  
+    "price": 58.99,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71NOrDmxGlL._AC_SL1500_.jpg",
+       "image": "smartwatches6.png"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730440",
+      "name": "WAFA Smart Watch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",
+      "price": 75.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61UO82%2BnD9L._AC_SL1000_.jpg",
+        "image": "smartwatches7.png"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001812157",
+      "name": "SANAG Smart Watch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",
+       "price": 39.99,
+      "category": 6,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71NrD%2Bj2G-L._AC_SL1500_.jpg",
+         "image": "smartwatches8.png"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5045111605",
+      "name": "MorePro 18 Sports Mode Smart Watch",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",
+     "price": 32.99,
+      "category": 6,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71JR83ImkOL._AC_SL1000_.jpg",
+       "image": "smartwatches9.png"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006760206",
+      "name": "YAMAY Smart Watch Fitness",
+    "description": "Supports 9 sports such as Walking, running, bicycle , Hike, Mountaineering, Dynamic cycling, Hike, fitness, treadmill, Yoga. Accurately record all-day activities like steps, distance, calories burned, miles walked, active minutes. Connecting the GPS in your cellphone can track all your workout routes, distances, and physical status during exercise. Stay motivated all day!",
+     "price": 30.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61MpRtrfPqL._AC_SL1000_.jpg",
+         "image": "smartwatches10.png"
     }
   }
 ]

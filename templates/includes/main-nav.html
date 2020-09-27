@@ -1,4 +1,4 @@
-<div class="collapse navbar-collapse" id="main-nav">
+  <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -16,7 +16,7 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Electronics
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
                 <a href="{% url 'products' %}?category=laptops" class="dropdown-item">Laptops</a>
                 <a href="{% url 'products' %}?category=smartphones" class="dropdown-item">Smartphones</a>
                 <a href="{% url 'products' %}?category=smartwatches" class="dropdown-item">Smartwatches</a>
@@ -25,7 +25,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sale!
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -42,8 +42,8 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
                 <a href="" class="dropdown-item">Blog</a>
-                <a href="" class="dropdown-item"><i class="fas fa-address-card"></i> About</a>
-                <a href="" class="dropdown-item"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="" class="dropdown-item">About</a>
+                <a href="" class="dropdown-item">Contact</a>
             </div>
         </li>
     </ul>

@@ -8,23 +8,7 @@
     }
   },
   {
-    "pk": 3,
-    "model": "products.category",
-    "fields": {
-      "name": "smartwatches_sale",
-      "friendly_name": "Smartwatches"
-    }
-  },
-  {
-    "pk": 4,
-    "model": "products.category",
-    "fields": {
-      "name": "smartphones_sale",
-      "friendly_name": "Smartphones"
-    }
-  },
-  {
-    "pk": 6,
+    "pk": 2,
     "model": "products.category",
     "fields": {
       "name": "smartphones",
@@ -32,19 +16,35 @@
     }
   },
   {
-    "pk": 8,
-    "model": "products.category",
-    "fields": {
-      "name": "laptops_sale",
-      "friendly_name": "Laptops"
-    }
-  },
-  {
-    "pk": 9,
+    "pk": 3,
     "model": "products.category",
     "fields": {
       "name": "smartwatches",
       "friendly_name": "Smartwatches"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "laptops_sale",
+      "friendly_name": "Laptops sale!"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "smartphones_sale",
+      "friendly_name": "Smartphones sale!"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "smartwatches_sale",
+      "friendly_name": "Smartwatches sale!"
     }
   }
 ]
