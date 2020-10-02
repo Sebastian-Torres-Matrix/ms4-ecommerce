@@ -27,7 +27,7 @@ SECRET_KEY = 'z1#*+-oc^&4tt5dtp_lss*&k@vx$(89r2-+%4*+(z_3et*fipz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['electronic-demands.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -119,16 +119,17 @@ WSGI_APPLICATION = 'ms4_ecommerce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-DATABASES = {
-    'default': dj_database_url.parse('postgres://qgwtqzsbacadby:0c5b4665297dd3a1553f81f9e9e3017908fceb8eefdf24c8b7fc15b3b3336274@ec2-54-75-229-28.eu-west-1.compute.amazonaws.com:5432/d4gp12cdf4c27f')
-}
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
