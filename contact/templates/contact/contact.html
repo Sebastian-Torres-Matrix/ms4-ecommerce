@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content%}
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center text-uppercase">
+         <h1 class="mt-5">Contact</h1>
+        </div>
+    </div>
+    <div class="row mt-4 mb-4">
+        <!--form-->
+        <div class="col-12">
+            <h3 class="mb-4 text-uppercase">Contact us</h3>
+            <form action="{% url 'contact' %}" method="POST">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button class="btn btn-lg">
+                    <span>Send</span>
+                    <span><i class="far fa-envelope"></i></span>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
