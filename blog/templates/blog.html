@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+              <div class="col-lg-8 mb-5">
+                  {% for post in posts %}
+                    <h1 class="mt-4">{{ post.title }}</h1>
+                    <hr>
+                    <p> {{ post.published_date }} </p>
+                    <img class="img-fluid" src="media/{{ post.image }}">
+                    <hr>
+                    <p>{{ post.content|truncatewords:30 }}</p>
+                    <p><a href="{% url 'post_detail' post.id %}" class="btn btn-dark rounded-0">Read more</a></p>
+                    <div class="mb-5"></div>
+                 {% endfor %}
+              </div>
+{% endblock %}
