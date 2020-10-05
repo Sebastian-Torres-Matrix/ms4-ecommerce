@@ -10,13 +10,15 @@
 {% endblock %}
 
 {% block content %}
+
     <div class="container h-100">
+    <div class="jumbotron">
         <div class="row h-100">
             <div class="col my-auto">
-                <h1 class="display-4 logo-font text-black">
+                <h1 class="display-4 text-uppercase text-center">
                     Lorem ipsum
                 </h1>
-                <div class="my-5">
+                <div class="text-center">
                     <h4>
                         <a href="{% url 'products' %}" class="shop-now-button btn btn-lg text-uppercase py-3">Shop Now</a>
                     </h4>
@@ -24,4 +26,5 @@
             </div>
         </div>
     </div>
+</div>
 {% endblock %}
