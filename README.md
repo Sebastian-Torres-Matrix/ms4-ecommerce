@@ -105,12 +105,29 @@ __Reviews Collection__
 * Python
 
 ### Libaries & Frameworks
+* [Bootstrap](https://getbootstrap.com/) 
+* [Django](https://www.djangoproject.com/) 
+* [FontAwesome](https://fontawesome.com/)  
+* [JQuery](https://jquery.com/) 
 
 
 ### Databases
+* [PostgreSQL](https://www.postgresql.org/)
+* [Sqlite3](https://www.sqlite.org/index.html)
 
 
 ### Tools :wrench:
+* [Am I Responsive?](http://ami.responsivedesign.is/#) 
+* [AWS S3 Bucket](https://aws.amazon.com/) 
+* [Balsamiq](https://balsamiq.com/) 
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) 
+* [Git](https://git-scm.com/) 
+* [Github](https://github.com/) 
+* [Gitpod](https://www.gitpod.io/) 
+* [Google Fonts](https://fonts.google.com/)
+* [Heroku](https://dashboard.heroku.com/apps) 
+* [Optimizilla](https://imagecompressor.com/) 
+* [Stripe](https://stripe.com) 
 
 
 ## Testing :electric_plug:
