@@ -10,7 +10,7 @@ def index(request):
 
 
 def about(request):
-     """ A view to return the about page """
-     template = 'home/about.html'
+    """ A view to return the about page """
+    template = 'home/about.html'
 
-     return render(request, template)
+    return render(request, template)
