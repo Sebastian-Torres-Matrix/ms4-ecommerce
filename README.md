@@ -126,7 +126,6 @@ __Reviews Collection__
 * [Gitpod](https://www.gitpod.io/) 
 * [Google Fonts](https://fonts.google.com/)
 * [Heroku](https://dashboard.heroku.com/apps) 
-* [Optimizilla](https://imagecompressor.com/) 
 * [Stripe](https://stripe.com) 
 
 
@@ -138,14 +137,33 @@ __Reviews Collection__
 ## Credits 
 
 ### Content
-
+* These websites, for the excellent content, with explanations and tutorials:
+    * [StackOverflow](https://stackoverflow.com/)
+    * [W3Schools](https://www.w3schools.com/)
+    * [Youtube](https://www.youtube.com/results?search_query=django+tutorials)
+    * [Django Documentation](https://docs.djangoproject.com/en/3.0/)
+    * [Django-allauth Documentation](https://django-allauth.readthedocs.io/en/latest/) 
+    * [Code Institute, Django module](https://courses.codeinstitute.net/program/FullstackWebDeveloper) 
  
 ### Media
+* [Favicon.io](https://favicon.io/)
+    * For the favicon used in the project.
+* [Optimizilla](https://imagecompressor.com/)
+    * Image compressor to shrink JPEG and PNG images. 
+* [Pexels](https://www.pexels.com) 
+    * For the background image used in the project.  
+* [Amazon](https://www.amazon.com/s?k=smartwatch&ref=nb_sb_noss_1) 
+    * For the product images used in the project.
 
 
 ### Acknowledgements
+* Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). For the support and feedback.
+* Tutor support and Student care from Code Institute. For the support, guidance and feedback.
+* [Simen Daehlin](https://dehlin.dev/), for excellent mentorship, with great guidance and feedback. :trophy:
+    * [Github](https://github.com/Eventyret)
+    * [Linkedin](https://uk.linkedin.com/in/simendaehlin)
 
- 
+
 ## Disclaimer 
 * The content of this website is for educational purpose only. :heavy_exclamation_mark:
 
