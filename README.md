@@ -132,7 +132,37 @@ __Reviews Collection__
 ## Testing :electric_plug:
 
 ## Deployment
+### Run this project locally:
 
+### Deploying MS4 Ecommerce to Heroku:
+1. Create a requirements.txt file using the following command.
+```
+pip3 freeze > requirements.txt
+```
+2. Create a Procfile with the following command.
+```
+echo web: python3 app.py > Procfile
+```
+3. Push these created files to your repository.
+4. Create a new app for this project on the Heroku Dashboard.
+5. Select your deployment method by clicking on the deployment method button and select GitHub.
+6. On the dashboard, set the following config variables:
+
+Key | Value
+-----|------
+AWS_ACCESS_KEY_ID | <your_secret_key>
+AWS_SECRET_ACCESS_KEY | <your_secret_key>
+DATABASE_URL | <your postgres database url>
+EMAIL_HOST_PASS | <your_value>
+EMAIL_HOST_USER | <your_value>
+SECRET_KEY | <your_secret_key>
+STRIPE_PUBLIC_KEY | <your_value>
+STRIPE_SECRET_KEY | <your_secret_key>
+STRIPE_WH_SECRET | <your_secret_key>
+USE_AWS | True
+
+7. Click the deploy button on the Heroku dashboard.
+8. The site has been deployed to Heroku.
 
 ## Credits 
 
