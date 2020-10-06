@@ -269,20 +269,6 @@
     "pk": 20,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001600465",
-      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
-      "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
-      "price": 158.99,
-      "category": 2,
-      "rating": 4.6,
-      "image_url": "",
-      "image": "smartphone8.png"
-    }
-  },
-  {
-    "pk": 3,
-    "model": "products.product",
-    "fields": {
       "sku": "pp5001734010",
       "name": "Xiaomi Redmi Note 9",
       "description": "HD Screen; 2.0 GHz 1.45 GHz Octa-Core Processor Android 10.0 Dual 13MP + 2MP Camera 5MP Front Facing Camera; Internal Memory 16 GB Supports microSD Memory Card up to 512GB 4G LTE; Wi-Fi Capable; Bluetooth 4.2 wireless technology; MP3 Player",
