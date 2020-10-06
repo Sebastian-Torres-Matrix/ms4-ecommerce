@@ -1,9 +1,9 @@
 from django.db import models
 
 
-class Post(models.Model):
+class blog(models.Model):
     title = models.CharField(max_length=150)
-    content = models.TextField()
+    description = models.TextField(max_length=500)
     image = models.ImageField(upload_to="images", blank=True, null=True)
 
     def __unicode__(self):

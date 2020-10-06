@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post
+from .models import blog
 
 
-admin.site.register(Post)
+admin.site.register(blog)

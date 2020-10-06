@@ -21,8 +21,8 @@ body {
 }
 
 .card {
-    -webkit-box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(255, 255, 255, 0.38);
-    box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(255, 255, 255, 0.38);
+    -webkit-box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(25, 250, 137, 0.38);
+    box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(25, 250, 137, 0.38);
 }
 
 .text-underline:hover {

@@ -1,13 +1,9 @@
-from django.db import models
-from django.utils import timezone
+from django import forms
+from .models import blog
 
 
-class Post(models.Model):
-    title = models.CharField(max_length=200)
-    content = models.TextField()
-    created_date = models.DateTimeField(auto_now_add=True)
-    published_date = models.DateTimeField(blank=True, null=True, default=timezone.now)
-    image = models.ImageField(upload_to="images", blank=True, null=True)
+class blog(forms.ModelForm):
 
-    def __unicode__(self):
-        return self.title
+    class Meta:
+        model = blog
+        fields = ('title', 'description', 'image')
