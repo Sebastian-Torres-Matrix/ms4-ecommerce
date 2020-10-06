@@ -10,14 +10,16 @@
 html {
     height: 100%;
     scroll-behavior: smooth;
+    font-size: 10px;
 }
 
 body {
     background: url('/media/home-bg.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 16.4rem);
     color: #555;
     font-family: 'Lora', sans-serif;
+    font-weight: 500;
 }
 
 .card:hover {
@@ -63,7 +65,7 @@ body {
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    min-width: 26rem;
 }
 
 .btn-black {
@@ -74,7 +76,7 @@ body {
 .btn-outline-black {
     background: white;
     color: orange !important; 
-    border: 1px solid black;
+    border: 0.1rem solid black;
 }
 
 .btn-outline-black:hover,
@@ -99,7 +101,7 @@ body {
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 0.1rem solid black !important;
 }
 
 .bg-black {
@@ -125,8 +127,8 @@ a.category-badge > span.badge:hover {
 
 .message-container {
     position: fixed;
-    top: 72px;
-    right: 15px;
+    top: 7.2rem;
+    right: 1.5rem;
     z-index: 99999999999;
 }
 
@@ -135,7 +137,7 @@ a.category-badge > span.badge:hover {
 }
 
 .toast-capper {
-    height: 2px;
+    height: 0.2rem;
 }
 
 /* Convenience classes - colors copied from Bootstrap */
@@ -172,7 +174,7 @@ a.category-badge > span.badge:hover {
 }
 
 .bag-notification-wrapper {
-    height: 100px;
+    height: 10rem;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -197,18 +199,18 @@ a.category-badge > span.badge:hover {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 16.4rem;
     }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 11.6rem;
     }
 
     body {
-        height: calc(100vh - 116px);
+        height: calc(100vh - 11.6rem);
     }
 }
 
@@ -225,10 +227,10 @@ a.category-badge > span.badge:hover {
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 1.6rem;
   transition: all 0.3s ease;
   color: white;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 /* social media, sidebar icons colors */
@@ -293,7 +295,7 @@ a.category-badge > span.badge:hover {
     -ms-user-select: none;
     user-select: none;
     background-color: #000;
-    border: 1px solid #000;
+    border: 0.1rem solid #000;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
