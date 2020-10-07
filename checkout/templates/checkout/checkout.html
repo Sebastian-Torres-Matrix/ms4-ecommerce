@@ -19,8 +19,7 @@
     <div class="container jumbotron">
         <div class="row">
             <div class="col">
-                <hr>
-                <h2 class="text-black text-center text-uppercase mb-2">Checkout</h2>
+                <h2 class="text-black text-center text-uppercase pb-3"><strong> Checkout</strong></h2>
                 <hr>
             </div>
         </div>
@@ -107,6 +106,8 @@
                         <!-- Pass the client secret to the view so we can get the payment intent id -->
                         <input type="hidden" value="{{ client_secret }}" name="client_secret">
                     </fieldset>
+                    <p><i class="fas fa-info-circle ml-4" data-container="body" data-toggle="popover" data-placement="bottom" 
+                    data-content="For testing checkout. Fill Card number: 4242 4242 4242 4242 | MM/YY: any four digit numbers | CVC: any four digit numbers"></i></p>
                     <div class="submit-button text-right mt-5 mb-2">                    
 						<a href="{% url 'view_bag' %}" class="btn btn-outline-black rounded-0">
 							<span class="icon">
@@ -132,7 +133,7 @@
         </div>
     </div>
     <div id="loading-overlay">
-        <h1 class="text-light logo-font loading-spinner">
+        <h1 class="text-light text-uppercase loading-spinner">
             <span class="icon">
                 <i class="fas fa-3x fa-sync-alt fa-spin"></i>
             </span>
@@ -146,4 +147,5 @@
     {{ stripe_public_key|json_script:"id_stripe_public_key" }}
     {{ client_secret|json_script:"id_client_secret" }}
     <script src="{% static 'js/stripe_elements.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/popover.js' %}"></script>
 {% endblock %}

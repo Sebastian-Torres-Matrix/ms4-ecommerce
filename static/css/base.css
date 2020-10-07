@@ -5,11 +5,11 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 10px;
 }
 
 html {
     scroll-behavior: smooth;
-    font-size: 10px;
 }
 
 html,
@@ -23,6 +23,10 @@ body {
     height: calc(100vh - 16.4rem);
     color: #555;
     font-family: 'Lora', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
 }
 
 .card:hover {
@@ -42,14 +46,13 @@ body {
     background: #fff;
 }
 
-.badge-grey,
+
 .bg-container,
 .bg-navbar,
 #bg-footer,
 .bg-card-footer,
 #topnav {
     background:#eeeeee;
-   /* background: #bbe1fa; */
 }
 
 /* from Bulma */
@@ -86,6 +89,7 @@ body {
     border: 0.1rem solid black;
 }
 
+
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
@@ -103,7 +107,7 @@ body {
     color: white;
 }
 
-.shop-now-button {
+.buy-now-button {
     width: -webkit-fill-available;
     float: left;
 }
@@ -122,12 +126,6 @@ body {
 
 .bg-white {
     background: #fff !important;
-}
-
-
-a.category-badge > span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
 }
 
 .update-link,

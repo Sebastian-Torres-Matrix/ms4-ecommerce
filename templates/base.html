@@ -117,14 +117,15 @@
     </header>
 
 <!-- sidebar social media icons -->
-<div class="icon-bar">
+<div class="row">
+<div class="d-none col-md-12 icon-bar">
   <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
   <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
   <a href="#" class="google"><i class="fa fa-google"></i></a>
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 </div>
-
+</div>
     {% if messages %}
         <div class="message-container">
             {% for message in messages %}
@@ -142,19 +143,13 @@
             {% endfor %}
         </div>
     {% endif %}
-
     {% block page_header %}
     {% endblock %}
-
     {% block content %}
     {% endblock %}
-
     {% include 'includes/footer.html' %}
-
     {% block postloadjs %}
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
+    <script type="text/javascript" src="{% static 'js/toast.js' %}"></script>
     {% endblock %}
   </body>
 </html>

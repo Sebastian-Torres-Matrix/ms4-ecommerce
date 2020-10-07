@@ -14,11 +14,6 @@
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="text-uppercase text-white mb-3"><u>Products</u></h2>
-                {% for c in current_categories %}
-                    <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
-                        <span class="p-2 mt-2 badge badge-grey text-black rounded-0 border border-light">{{ c.friendly_name }}</span>
-                    </a>
-                {% endfor %}
             </div>
         </div>
         <div class="row">
@@ -83,7 +78,7 @@
                                             {% endif %}
                                             <div class="text-center mt-3">
                                                 <h4>
-                                                    <a href="{% url 'product_detail' product.id %}" class="shop-now-button btn btn-md py-3">Buy Now</a>
+                                                    <a href="{% url 'product_detail' product.id %}" class="btn btn-black btn-lg w-100 py-3">Buy Now</a>
                                                 </h4>
                                             </div>
                                         </div>
