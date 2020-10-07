@@ -68,32 +68,42 @@ As a user i want to be able to.....
 ### Design Choices :art:
 
 __Icons__
-
+Icons are being applied from Font Awesome
 
  __Typography__
-
+Google Fonts were used across the site:
+Lora is the primary font used throughout the project
+Sans-serif was chosen as the fallback font
 
 __Color scheme__
+: #eeeeee
+White color: #fff
+Black color: #000
 
 
 ### Wireframes
 * The wireframes were created using [Balsamiq](https://balsamiq.com/).
     * Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/ms4-ecommerce/tree/master/wireframes)
 
-### Databases
-
-__Users Collection__
-
-
-__Reviews Collection__
-
 
 ## Features :mag_right:
 
 ### Existing Features
-
+__Users can:__
+* sign up toElectronicDemands , with a unique username and password
+* log in to the website, with their unique username and password
+* log out from the website
+* add product to their shopping bag
+* edit and update existing shopping bag
+* delete existing products from their shopping bag
+* search for specific products in the products gallery
+* sort products by order of price, category, a-z
+* buy products with secure card payments
+* follow Electronic Demands through social media
 
 ### Features Left to Implement
+* Pagination when there are many products accumulated in the product gallery
+
 
 ### Data Models
 
