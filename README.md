@@ -198,8 +198,57 @@ country | CountryField | null=True, blank=True
 
 ## Deployment
 ### Run this project locally:
+1. Save a copy of the github repository located at https://github.com/Sebastian-Torres-Matrix/ms4-ecommerce 
+by clicking the 'download.zip' button at the top of the page and extracting the zip file to your chosen folder. 
+If you have Git installed on your system, you can clone the repository with the following command:
+```
+git clone https://github.com/Sebastian-Torres-Matrix/ms4-ecommerce.git
+```
 
-### Deploying MS4 Ecommerce to Heroku:
+2. Set up a virtual environment via this command in the terminal session:
+```
+python -m venv env
+```
+3. Activate the .venv with the command:
+```
+\env\Scripts\activate.bat
+```
+4. Install all required modules with the command:
+```
+pip install -r requirements.txt
+```
+5. Create a env.py file and add it to your .gitignore
+
+6. Copy the following into the env.py file:
+```
+import os
+
+os.environ['SECRET_KEY'] = 'your value'
+os.environ['DATABASE_URL'] = 'your value'
+os.environ['STRIPE_PUBLIC_KEY'] = 'your value'
+os.environ['STRIPE_SECRET_KEY'] = 'your value'
+os.environ['STRIPE_WH_SECRET'] = 'your value'
+os.environ['AWS_STORAGE_BUCKET_NAME'] = 'your value'
+os.environ['AWS_ACCESS_KEY_ID'] = 'your value'
+os.environ['AWS_SECRET_ACCESS_KEY'] = 'your value'
+os.environ['DEVELOPMENT'] = '1'
+```
+
+7. Set up the databases by running the following management command in your terminal:
+```
+python manage.py migrate
+```
+
+8. Create the superuser so you can have access to the django admin:
+```
+python manage.py createsuperuser
+```
+9. Start your server by running the following command in your terminal:
+```
+python manage.py runserver
+```
+
+### Deployment to Heroku:
 1. Create a requirements.txt file using the following command.
 ```
 pip3 freeze > requirements.txt
