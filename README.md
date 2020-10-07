@@ -78,7 +78,7 @@ __Color scheme__
 
 ### Wireframes
 * The wireframes were created using [Balsamiq](https://balsamiq.com/).
-    * Here is the link to see the [Wireframes]()
+    * Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/ms4-ecommerce/tree/master/wireframes)
 
 ### Databases
 
