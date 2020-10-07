@@ -95,6 +95,71 @@ __Reviews Collection__
 
 ### Features Left to Implement
 
+### Data Models
+
+__Blog Models__
+Name | Field Type | Validation
+------------- | -------------
+    title | CharField | max_length=150
+    description | TextField | max_length=500
+    image | ImageField | blank=True, null=True)
+
+__Contact Models__
+Name | Field Type | Validation
+------------- | -------------
+name | CharField | null=False, blank=False
+email | EmailField | null=False, blank=False
+message | TextField | null=False, blank=False
+
+__Order Models__
+Name | Field Type | Validation
+------------- | -------------
+    order_number | CharField | null=False, editable=False
+    user_profile | ForeignKey | null=True, blank=True
+    full_name | CharField | null=False, blank=False
+    email | EmailField | null=False, blank=False
+    phone_number | CharField | null=False, blank=False
+    country | CountryField | null=False, blank=False
+    postcode | CharField | null=True, blank=True
+    city | CharField | null=False, blank=False
+    address | CharField | null=False, blank=False
+    date | DateTimeField | auto_now_add=True
+    delivery_cost | DecimalField | null=False, default=0
+    order_total | DecimalField | null=False, default=0
+    grand_total | DecimalField | null=False, default=0
+    original_bag | TextField | null=False, blank=False, default=''
+    stripe_pid | CharField | null=False, blank=False, default=''
+
+__OrderLineItems Models__
+Name | Field Type | Validation
+------------- | -------------
+    order | ForeignKey | null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems'
+    product | ForeignKey | null=False, blank=False, on_delete=models.CASCADE
+    quantity | IntegerField | null=False, blank=False, default=0
+    lineitem_total | DecimalField | null=False, blank=False, editable=False
+
+__Product Models__
+Name | Field Type | Validation
+------------- | -------------
+category | ForeignKey| null=True, blank=True
+sku | CharField | null=True, blank=True 
+name | CharField | max_length=254
+description | TextField |
+price | DecimalField | max_digits=6
+rating | DecimalField | null=True, blank=True
+image_url | URLField | null=True, blank=True
+image | ImageField | null=True, blank=True 
+
+__Profile Models__
+Name | Field Type | Validation
+------------- | -------------
+user | OneToOneField | on_delete=models.CASCADE
+phone_number | CharField | null=True, blank=True
+address | CharField | null=True, blank=True
+postcode | models.CharField | null=True, blank=True
+city | CharField | null=True, blank=True
+country | CountryField | null=True, blank=True
+
 
 ## Technologies Used :computer: 
 
