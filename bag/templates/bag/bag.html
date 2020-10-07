@@ -10,9 +10,7 @@
 </div>
 {% endblock %} 
 {% block content %}
-<div class="container h-100">
   <div class="container mb-2">
-    
     <div class="row">
       <div class="col">
         <h2 class="text-white text-center text-uppercase mb-4">
@@ -21,8 +19,8 @@
       </div>
     </div>
     
-    <div class="row bg-container">
-      <div class="col">
+    <div class="row">
+      <div class="col-8 offset-2 jumbotron">
 
         {% if bag_items %}
         <div class="table-responsive rounded mt-3">
@@ -30,7 +28,6 @@
             <thead class="text-black text-center">
               <tr>
                 <th scope="col"><u>Product Info</u></th>
-                
                 <th scope="col"><u>Price</u></th>
                 <th scope="col"><u>Quantity</u></th>
                 <th scope="col"><u>Subtotal</u></th>
@@ -77,7 +74,7 @@
                     </div>
                   </div>
                 </form>
-                <a class="remove-item text-danger" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
+                <a class="remove-item text-danger float-left" id="remove_{{ item.item_id }}"><small>Remove</small></a>
                 <a class="update-link text-info float-right"><small>Update</small></a>
                 <!----->
               </td>
@@ -133,10 +130,7 @@
         {% endif %}
       </div>
     </div>
-
   </div>
-</div>
-
 {% endblock %} 
 {% block postloadjs %} 
 {{ block.super }}

@@ -1,12 +1,12 @@
-	<footer class="page-footer mt-5 w-100" id="bg-footer">
-		<div class="container container-footer mt-3">
+	<footer class="mt-5 w-100" id="bg-footer">
+		<div class="container">
 			<div class="row pt-5">
-				<div class="col-sm-4 text-left h5">
+				<div class="col-sm-12 col-md-4 text-left h5">
                 <p><a href="{% url 'about' %}" class="text-black">About</a></p>
                 <p><a href="{% url 'blog' %}" class="text-black">Blog</a></p>
                 <p><a href="{% url 'contact' %}" class="text-black">Contact</a></p>
 				</div>
-				<div class="col-sm-4 text-center"> 
+				<div class="col-sm-12 col-md-4 text-center"> 
                 <h5><strong>Accepted payments</strong> </h5>
 					<ul class="list-inline text-center">
                         <li class="icon-card"><i class="fa fa-cc-stripe"></i></li>
@@ -14,7 +14,7 @@
                         <li class="icon-card"><i class="fa fa-cc-mastercard"></i></li>
 					</ul>
 				</div>
-                <div class="col-sm-4"> 
+                <div class="col-sm-12 col-md-4"> 
               <ul class="list-inline float-right text-black">
                 <p><strong><u>Customer service</u></strong></p>
                 <p >Mon-Sun 8.00-18.00</p>
@@ -24,7 +24,9 @@
                 </div>
 			</div>
 		</div>
-		<div class="col-12 text-muted text-center pb-3">
+        <div class="row">
+		<div class="col-sm-12 text-muted text-center pb-3">
 			<div><h6>Copyright © Electronic Demands 2020. All rights reserved.</h6></div>
+        </div>
         </div>
 	</footer>
