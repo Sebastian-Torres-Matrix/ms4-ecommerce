@@ -7,15 +7,15 @@
 		<div class="col-12">
 			<h2 class="text-uppercase text-center mb-4">{% trans "Sign Out" %}</h2>
 			<p class="text-black pt-4">{% trans 'Are you sure you want to sign out?' %}</p>
-		</div>
-	</div>
+	
 	<form method="post" action="{% url 'account_logout' %}">
 		{% csrf_token %}
 		{% if redirect_field_value %}
 		<input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
   {% endif %}
-		<a class="btn btn-black rounded-0" href="{% url 'home' %}">Cancel</a>
 		<button type="submit">{% trans 'Sign Out' %}</button>
 	</form>
+    	</div>
+	</div>
 </div>
 {% endblock %}

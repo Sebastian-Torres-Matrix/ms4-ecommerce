@@ -75,7 +75,7 @@ p {
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 26rem;
+    width: 50%;
 }
 
 .btn-black {
