@@ -23,6 +23,7 @@ body {
     height: calc(100vh - 16.4rem);
     color: #555;
     font-family: 'Lora', sans-serif;
+    font-weight: 400;
 }
 
 p {
