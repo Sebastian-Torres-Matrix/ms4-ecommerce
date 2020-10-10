@@ -21,9 +21,25 @@ body {
     background: url('/media/home-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 16.4rem);
-    color: #555;
+    color: #000;
+    /*color: #555; */
     font-family: 'Lora', sans-serif;
     font-weight: 400;
+}
+
+.h1, 
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.h2, 
+h2 {
+    font-size: 3rem;
+}
+
+.text-size {
+    font-size: 1.6rem;
 }
 
 p {
@@ -362,7 +378,7 @@ p {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
-}
+
 
 .footer {
     position: fixed;

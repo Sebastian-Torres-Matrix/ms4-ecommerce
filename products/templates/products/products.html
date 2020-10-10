@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-
+{% block extra_title %}| Products{% endblock %}
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -8,12 +8,11 @@
         </div>
     </div>
 {% endblock %}
-
 {% block content %}
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-center mt-3">
-                <h2 class="text-uppercase text-white mb-3"><u>Products</u></h2>
+            <div class="col text-white text-center my-3">
+                <h1>Products</h1>
             </div>
         </div>
         <div class="row">
@@ -112,7 +111,6 @@
         </div>
     </div>
 {% endblock %}
-
 {% block postloadjs %}
     {{ block.super }}
     <script type="text/javascript" src="{% static 'js/products.js' %}"></script>

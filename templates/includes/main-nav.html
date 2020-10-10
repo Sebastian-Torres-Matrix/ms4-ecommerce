@@ -1,12 +1,12 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-md-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+            <a class="text-uppercase font-weight-bold nav-link mr-5" href="{% url 'home' %}" id="home-link">
                 Home
             </a>
         </li> 
                 <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black text-underline mr-3" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-underline mr-3" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Electronics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="electronics-link">
@@ -27,7 +27,6 @@
                 <a href="{% url 'products' %}?category=laptops_sale,smartphones_sale,smartwatches_sale" class="dropdown-item">All Products on <strong class="text-danger">sale!</strong></a>
             </div>
         </li>
-      
         <li class="nav-item dropdown">
             <a class="font-weight-bold nav-link text-black text-underline mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -39,10 +38,6 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
-
-
-
-
         <li class="nav-item dropdown">
             <a class="font-weight-bold nav-link text-black text-underline mr-5" href="#" id="blog-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 More
