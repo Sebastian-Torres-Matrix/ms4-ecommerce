@@ -115,11 +115,11 @@ __Users can:__
 ### Data Models
 
 __Blog Models__
-Name | Field Type | Validation
-------------- | -------------
-    title | CharField | max_length=150
-    description | TextField | max_length=500
-    image | ImageField | blank=True, null=True)
+Name | Field Type | Validation |
+---- |:----------:| ----------:|
+title | CharField | max_length=150
+description | TextField | max_length=500
+image | ImageField | blank=True, null=True)
 
 __Contact Models__
 Name | Field Type | Validation |
@@ -212,6 +212,118 @@ country | CountryField | null=True, blank=True
 
 
 ## Testing :electric_plug:
+# Testing
+:electric_plug:
+
+### Validators
+
+* [W3C Markup Validation](https://validator.w3.org/)
+    - Was used to check HTML5 validation.
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Was used to check CSS3 validation.
+* [Esprima Syntax Validaton](https://esprima.org/index.html)
+    - Was used to check Javascript validation.
+* [Python syntax checker](https://extendsclass.com/python-tester.html)
+    - Was used to check Python validation.
+* [PEP online](http://pep8online.com/)
+    - Was used to check PEP8 validation.
+* [AutoPrefixer](https://autoprefixer.github.io/)
+    - Was used to make sure that CSS3 was valid for all web browsers.
+* [Google Search Console](https://autoprefixer.github.io/)
+    - Was used to make sure that Responsive design worked on all devices.
+https://search.google.com/test/mobile-friendly?hl=sv
+* [Google Chrome](https://www.google.com/intl/sv/chrome/)
+    - Was used to test the web browser.
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+    - Was used to for debugging. 
+
+## Features Testing
+
+### Login, sign up and sign out
+* __Testing__ :mag: : User fills the form with required inputs and submits the form. Testing 
+that toast messages and redirection of page works correctly
+* __Result__ :hammer: : The user can login, sign up and sign out from the website, by navigating
+and using the forms and links.
+links
+* __Passed__ :white_check_mark: : Testing passed the expected criterias 
+
+### Searchbox
+* __Testing__ :mag: : Users can find a specific product, by typing in the searchbar and clicking on the button "search".
+Testing that connection setup and search works correctly
+* __Result__ :hammer: : searchbar works as expected. When searching for a specific product by typing for a specificproduct, the product
+that the user search for, either is found or not
+* __Passed__ :white_check_mark: : Testing passed the expected criterias
+
+### Sort
+* __Testing__ :mag: :
+Testing that sorting works as intended for the specific sorting choice
+* __Result__ :hammer: : The user can sort products by price, name, rating or category 
+* __Passed__ :white_check_mark: : Testing passed the expected criterias 
+
+### Adjust shopping bag
+* __Testing__ :mag: : 
+Testing that increment and decreament functionality works as intended, also remove and update products from the shopping bag.
+* __Result__ :hammer: : 
+The user can adjust their shopping bag, by addin, decreasing or remoing products from shopping bag
+* __Passed__ :white_check_mark: : Testing passed the expected criterias 
+
+### Checkout process
+* __Testing__ :mag: : 
+Testing that Stripe connection and card payment works as intended 
+* __Result__ :hammer: : 
+The user can make a secure and smooth card payment in the checkout process
+* __Passed__ :white_check_mark: : Testing passed the expected criterias
+
+### Order confirmation
+* __Testing__ :mag: : 
+Testing that the users gets a correct order cnfirmation after checkout process
+Also that user can see and revisit order history intheir profile page
+* __Result__ :hammer: : 
+The user gets a order confirmation after payment and can see all their order history in their profile page.
+* __Passed__ :white_check_mark: : Testing passed the expected criterias
+
+### Contact us
+* __Testing__ :mag: : 
+Testing that users can us the contact us form and gets a confirmation when sending the form
+* __Result__ :hammer: : 
+The user gets an toast and email confirmation after sending the conctact form
+* __Passed__ :white_check_mark: : Testing passed the expected criterias
+
+### Navigation links
+* __Testing__ :mag: : 
+Testing that all navigation links, on the navbar, buttons and backlinks works and redirects to correct url
+* __Result__ :hammer: : 
+The user can navigate easily on the website by using the links, that redirects them to their intended destination
+* __Passed__ :white_check_mark: : Testing passed the expected criterias
+
+### Social Media Icons
+* __Testing__ :mag: : Users can use social media links to navigate to the websites specific social media account.
+Testing that by clicking on social media link, the user gets navigated to the chosen social media account.
+* __Result__ :hammer: : When clicking on social media icon, the user gets naviagated to the specific social media account. 
+* __Passed__ :white_check_mark: : Testing passed the expected criterias 
+
+### Responsive Design
+* __Testing__ :mag: : Users can use different devices to navigate on the website.
+Testing that the website works correctly on different devices and adjust on the responsive breakpoints.
+* __Result__ :hammer: : The website is responsive on the different devices breakpoints and works correctly.
+* __Passed__ :white_check_mark: : Testing passed the expected criterias 
+
+## Notable Bugs
+
+### Remove and update button
+* __Bug__ :bug: :  The buttons remove and update onclick, in the shopping bag were not responding. 
+They did not remove or updated the shopping bag, when clicking on this buttons 
+* __Resolved__ :key: :  
+For the remove button, csrf token wasn't being read in properly. The JS code can only be accessed in the HTML file, not in the JS file.
+The update button needed to be ordered before the delete button in the html, as the prev() function only gets the immediately preceding element. 
+* __Passed__ :white_check_mark: :
+
+### Responsive design
+* __Bug__ :bug: : Had some bugs with the responsive design, when switching font-size (10px = 1 rem) from px the rem and deploying to Amazon AWS.
+All font-size became very small and  CSS was not responding to changes.
+* __Resolved__ :key: : Started redifining font-sizes for p, h1, h2 and so on with rem and adding to all typography in templates with classes.
+Commented out AWS code in settings.py until project was all done, so that css responded to changes locally.
+* __Passed__ :white_check_mark: :
 
 ## Deployment
 ### Run this project locally:
