@@ -1,51 +1,51 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-md-none">
-            <a class="text-uppercase font-weight-bold nav-link mr-5" href="{% url 'home' %}" id="home-link">
+            <a class="text-uppercase text-black font-weight-bold hover-underline nav-link mr-5" href="{% url 'home' %}" id="home-link">
                 Home
             </a>
         </li> 
                 <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-underline mr-3" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <a class="font-weight-bold nav-link text-black hover-underline mr-3" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Electronics
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="electronics-link">
-                <a href="{% url 'products' %}?category=laptops" class="dropdown-item text-underline">Laptops</a>
-                <a href="{% url 'products' %}?category=smartphones" class="dropdown-item text-underline">Smartphones</a>
-                <a href="{% url 'products' %}?category=smartwatches" class="dropdown-item text-underline">Smartwatches</a>
-                <a href="{% url 'products' %}?category=laptops,smartphones,smartwatches" class="dropdown-item text-underline">All Products</a>
+            <div class="bg-grey dropdown-menu border-0" aria-labelledby="electronics-link">
+                <a href="{% url 'products' %}?category=laptops" class="dropdown-item hover-underline">Laptops</a>
+                <a href="{% url 'products' %}?category=smartphones" class="dropdown-item hover-underline">Smartphones</a>
+                <a href="{% url 'products' %}?category=smartwatches" class="dropdown-item hover-underline">Smartwatches</a>
+                <a href="{% url 'products' %}?category=laptops,smartphones,smartwatches" class="dropdown-item hover-underline">All Products</a>
             </div>
         </li> 
             <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-danger text-underline mr-3" href="#" id="sale-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-danger hover-underline mr-3" href="#" id="sale-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sale!
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="sale-link">
-                <a href="{% url 'products' %}?category=laptops_sale" class="dropdown-item text-underline">Laptops <strong class="text-danger">sale!</strong></a>
-                <a href="{% url 'products' %}?category=smartwatches_sale" class="dropdown-item text-underline">Smartphones <strong class="text-danger">sale!</strong></a>
-                <a href="{% url 'products' %}?category=smartwatches_sale" class="dropdown-item text-underline">Smartwatches <strong class="text-danger">sale!</strong></a>
-                <a href="{% url 'products' %}?category=laptops_sale,smartphones_sale,smartwatches_sale" class="dropdown-item">All Products on <strong class="text-danger">sale!</strong></a>
+                <a href="{% url 'products' %}?category=laptops_sale" class="dropdown-item hover-underline">Laptops <strong class="text-danger">sale!</strong></a>
+                <a href="{% url 'products' %}?category=smartwatches_sale" class="dropdown-item hover-underline">Smartphones <strong class="text-danger">sale!</strong></a>
+                <a href="{% url 'products' %}?category=smartwatches_sale" class="dropdown-item hover-underline">Smartwatches <strong class="text-danger">sale!</strong></a>
+                <a href="{% url 'products' %}?category=laptops_sale,smartphones_sale,smartwatches_sale" class="dropdown-item hover-underline">All Products on <strong class="text-danger">sale!</strong></a>
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black text-underline mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="p font-weight-bold nav-link text-black hover-underline mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item text-underline">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item text-underline">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item text-underline">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item hover-underline">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item hover-underline">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item hover-underline">By Category</a>
+                <a href="{% url 'products' %}" class="hover-underline dropdown-item">All Products</a>
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-underline mr-5" href="#" id="more-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold text-black nav-link hover-underline mr-5" href="#" id="more-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 More
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="more-link">
-                <a href="{% url 'about' %}" class="dropdown-item text-underline">About</a>
-                <a href="{% url 'blog' %}" class="dropdown-item text-underline">Blog</a>
-                <a href="{% url 'contact' %}" class="dropdown-item text-underline">Contact</a>
+                <a href="{% url 'about' %}" class="dropdown-item hover-underline">About</a>
+                <a href="{% url 'blog' %}" class="dropdown-item hover-underline">Blog</a>
+                <a href="{% url 'contact' %}" class="dropdown-item hover-underline">Contact</a>
             </div>
         </li>
     </ul>

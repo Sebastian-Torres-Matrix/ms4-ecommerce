@@ -1,44 +1,45 @@
 <footer class="bg-grey mt-5 w-100">
   <div class="container">
     <div class="row pt-5">
-      <div class="col-sm-12 col-md-4 text-black text-center h5">
-        <p class="text-black"><a href="{% url 'about' %}">About</a></p>
-        <p><a href="{% url 'blog' %}">Blog</a></p>
-        <p><a href="{% url 'contact' %}">Contact</a></p>
+      <div class="col-sm-12 col-md-4 text-center h5">
+        <p><a class="text-black" href="{% url 'about' %}">About</a></p>
+        <p><a class="text-black" href="{% url 'blog' %}">Blog</a></p>
+        <p><a class="text-black" href="{% url 'contact' %}">Contact</a></p>
       </div>
       <hr class="d-block d-md-none py-2 mx-auto w-50" />
       <!-- social media icons - in mobile view -->
       <div class="col-12 text-center d-block d-md-none">
         <h5>Social Media</h5>
         <ul class="list-inline">
-          <li><a class="socialmedia-icon facebook" target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a class="socialmedia-icon twitter" target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="socialmedia-icon linkedin" target="_blank" href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-          <li><a class="socialmedia-icon youtube" target="_blank" href="https://www.pinterest.com"><i class="fa fa-youtube"></i></a></li>
+          <li><a class="socialmedia-icon facebook" target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square icon-size"></i></a></li>
+          <li><a class="socialmedia-icon twitter" target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter icon-size"></i></a></li>
+          <li><a class="socialmedia-icon linkedin" target="_blank" href="https://www.linkedin.com"><i class="fa fa-linkedin icon-size"></i></a></li>
+          <li><a class="socialmedia-icon youtube" target="_blank" href="https://www.pinterest.com"><i class="fa fa-youtube icon-size"></i></a></li>
         </ul>
       </div>
       <!-- /social media icons - in mobile view -->
       <hr class="d-block d-md-none py-2 mx-auto w-50" />
       <div class="col-12 col-md-4 text-center">
-        <h5><strong>Accepted payments</strong></h5>
+        <h5 class="font-weight-bold pb-2">Accepted payments</h5>
         <ul class="list-inline text-center">
-          <li class="icon-card"><i class="fa fa-cc-stripe"></i></li>
-          <li class="icon-card"><i class="fa fa-cc-visa"></i></li>
-          <li class="icon-card"><i class="fa fa-cc-mastercard"></i></li>
+          <li><i class="fa fa-cc-stripe icon-size"></i></li>
+          <li><i class="fa fa-cc-visa icon-size"></i></li>
+          <li><i class="fa fa-cc-mastercard icon-size"></i></li>
         </ul>
       </div>
       <hr class="d-block d-md-none py-2 mx-auto w-50" />
       <div class="col-12 col-md-4">
         <ul class="list-inline text-center">
-          <p><strong><u>Customer service</u></strong></p>
+          <p class="font-weight-bold text-underline">Customer service</p>
           <p>Mon-Sun 8.00-18.00</p>
           <p>Tel: 123 456</p>
-          <p class="text-black"><a href="{% url 'contact' %}">Email: electronic.demands@hotmail.com</a>
+          <p><a class="text-black" href="{% url 'contact' %}">Email: electronic.demands@hotmail.com</a>
           </p>
         </ul>
       </div>
     </div>
   </div>
+  <hr class="d-block d-md-none py-2 mx-auto w-50" />
   <div class="row">
     <div class="col-12 text-black text-muted text-center pb-3">
       <div>

@@ -13,9 +13,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="text-white text-center text-uppercase mb-4">
-          <u>Shopping Bag</u>
-        </h2>
+        <h2 class="text-white text-center text-uppercase text-underline mb-4">Shopping Bag</h2>
       </div>
     </div>
     <div class="row">
@@ -23,12 +21,12 @@
         {% if bag_items %}
         <div class="table-responsive rounded mt-3">
           <table class="table table-sm table-borderless">
-            <thead class="text-center">
+            <thead class="h1 text-underline text-center">
               <tr>
-                <th scope="col"><u>Product Info</u></th>
-                <th scope="col"><u>Price</u></th>
-                <th scope="col"><u>Quantity</u></th>
-                <th scope="col"><u>Subtotal</u></th>
+                <th scope="col">Product Info</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Subtotal</th>
               </tr>
             </thead>
             {% for item in bag_items %}
@@ -68,9 +66,8 @@
                   </div>
                 </form>
                 <!-- adjust products in shopping bag - remove or update-->
-                <a class="remove-item text-danger float-left" id="remove_{{ item.item_id }}"><small>Remove</small></a>
                 <a class="update-link text-info float-right"><small>Update</small></a>
-    
+                <a class="remove-item text-danger text-underline float-left" id="remove_{{ item.item_id }}"><small>Remove</small></a>    
               </td>
               <td class="py-3">
                 <p class="my-0">
@@ -128,5 +125,9 @@
 <!--loading scripts-->
 {% block postloadjs %} 
 {{ block.super }}
+
+<script>
+    var csrfToken = '{{ csrf_token }}';
+</script>
 <script type="text/javascript" src="{% static 'js/bag.js' %}"></script>
 {% endblock %}

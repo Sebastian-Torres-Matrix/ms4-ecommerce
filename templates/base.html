@@ -29,10 +29,10 @@
   <body>
   <!-- navbar -->
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
+        <div class="bg-grey row pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="text-uppercase text-black my-0 text-underline"><strong>Electronic Demands</strong></h2>
+                    <h2 class="font-weight-bold text-uppercase text-black my-0 hover-underline">Electronic Demands</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -53,26 +53,26 @@
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
+                            <div class="text-center text-black">
                                 <div><i class="fas fa-user fa-lg hover-scale"></i></div>
-                                <p class="my-0">Account</p>
+                                <p class="my-0 hover-underline">Account</p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                <a href="{% url 'profile' %}" class="dropdown-item hover-underline">My Profile</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item hover-underline">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Signup</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item hover-underline">Login</a>
+                                <a href="{% url 'account_signup' %}" class="dropdown-item hover-underline">Signup</a>
                             {% endif %}
                         </div>
                     </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
-                            <div class="text-center">
+                            <div class="text-center text-black">
                                 <div><i class="fas fa-shopping-cart fa-lg hover-scale"></i></div>
-                                <p class="my-0">
+                                <p class="my-0 hover-underline">
                                     {% if grand_total %}
                                         {{ grand_total|floatformat:2 }}€
                                     {% else %}
@@ -96,7 +96,7 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h4 class="my-1"><i class="fas fa-truck"></i> Free delivery on orders over {{ free_delivery_threshold }}€ !</h4>                
+                <p class="my-1" id="banner-size"><i class="fas fa-truck"></i> Free delivery on orders over {{ free_delivery_threshold }}€ !</p>                
             </div>            
         </div>
     </header>
