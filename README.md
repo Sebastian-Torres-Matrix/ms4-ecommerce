@@ -12,7 +12,7 @@ Plug in :electric_plug: and visit our webshop!
 ## Table of Contents
 * [UX](#ux)
     * [Project Goals](#project-goals)
-    * [Site Owner Goals:](#site-owner-goals:)
+    * [Site Owner Goals:](#site-owner-goals)
     * [User Stories](#user-stories)
     * [Design Choices](#design-choices)
     * [Wireframes](#wireframes)
@@ -97,20 +97,23 @@ __Color scheme__
 
 ### Existing Features
 __Users can:__
-* sign up toElectronicDemands , with a unique username and password
+* sign up to ElectronicDemands, with a unique username and password
 * log in to the website, with their unique username and password
 * log out from the website
-* add product to their shopping bag
-* edit and update existing shopping bag
-* delete existing products from their shopping bag
+* add product to the shopping bag
+* adjust, edit, remove and update existing shopping bag
 * search for specific products in the products gallery
-* sort products by order of price, category, a-z
+* sort products by order of price, name, category, a-z
 * buy products with secure card payments
+* have all historic personal order details in profile page
+* contact support through contact form and get email confirmation
+* get overall information about products through the company blog 
 * follow Electronic Demands through social media
 
 ### Features Left to Implement
 * Pagination when there are many products accumulated in the product gallery
-
+* Add 404 page, for better UX
+* Delete account, users should be able to delete their account if the wish to do so
 
 ### Data Models
 
@@ -395,7 +398,7 @@ Key | Value
 -----|------
 AWS_ACCESS_KEY_ID | <your_secret_key>
 AWS_SECRET_ACCESS_KEY | <your_secret_key>
-DATABASE_URL | <your postgres database url>
+DATABASE_URL | <your_postgres_database_url>
 EMAIL_HOST_PASS | <your_value>
 EMAIL_HOST_USER | <your_value>
 SECRET_KEY | <your_secret_key>
@@ -438,7 +441,7 @@ USE_AWS | True
 
 
 ## Disclaimer 
-* The content of this website is for educational purpose only. :heavy_exclamation_mark:
+* The content of this website is for educational purpose only :heavy_exclamation_mark:
 
 ## Back to the top 
 * [Table of Contents](#table-of-contents) :arrow_up:
