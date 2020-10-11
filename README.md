@@ -1,9 +1,13 @@
 # TITLE
+# ELECTRONIC DEMANDS :computer:
 ![Multi Device Website Mockup]()
 Visit the live website: [Electronic Demands](https://electronic-demands.herokuapp.com/) 
 
 ## Introduction 
-
+Welcome to Electronic Demands!
+Electronic Demands is the place for people who loves electronics. This is the place for people 
+who wants the most popular electronics in the categories of laptops, smartphones and smartwatches. 
+Plug in :electric_plug: and visit our webshop! 
 
 ## Table of Contents
 * [UX](#ux)
@@ -37,10 +41,15 @@ Visit the live website: [Electronic Demands](https://electronic-demands.herokuap
 ## UX 
 
 ### Project Goals :dart: 
-
+The aim of the project is to create a ecommerce website where users can view, sort and choose different products
+in the gallery, got through the checkout process with their shopping bag and make a card payment through [Stripe](https://stripe.com/en-se).
+The user can also create a personal profile where the can see all their historic order details.
 
 ### Site Owner Goals:
 
+* Provide a platform for people who loves popular electronics in the categories of laptops, smartphones and smartwatches
+* Make it easy for users to navigate, choose products, have an overview of their order details, get informed through the blog and keep connected through social media.
+* Collect user information through site analytics to optimize the website for users
 
 ### User Stories :clapper: 
 As a user i want to be able to.....
@@ -68,18 +77,16 @@ As a user i want to be able to.....
 ### Design Choices :art:
 
 __Icons__
-Icons are being applied from Font Awesome
+* Icons are being applied from [Font Awesome](https://fontawesome.com/)
 
  __Typography__
 Google Fonts were used across the site:
-Lora is the primary font used throughout the project
+[Lora](https://fonts.google.com/specimen/Lora?query=lora) is the primary font used throughout the project
 Sans-serif was chosen as the fallback font
 
 __Color scheme__
-: #eeeeee
-White color: #fff
-Black color: #000
 
+![#000, #eeeeee, #fff](static/images/colorscheme-readme.JPG "color scheme")
 
 ### Wireframes
 * The wireframes were created using [Balsamiq](https://balsamiq.com/).
