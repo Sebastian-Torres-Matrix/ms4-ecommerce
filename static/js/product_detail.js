@@ -40,6 +40,8 @@ $(".decrement-qty").click(function (e) {
   handleEnableDisable(itemId);
 });
 
+// loading script product_detail.html
+
 // Update quantity on click
 $(".update-link").click(function (e) {
   var form = $(this).prev(".update-form");

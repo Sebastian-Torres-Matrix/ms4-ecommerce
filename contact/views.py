@@ -4,6 +4,7 @@ from .forms import ContactForm
 
 
 def contact_form(request):
+    """A view that handles contact form"""
     template = 'contact/contact.html'
 
     if request.method == 'POST':
@@ -16,7 +17,7 @@ def contact_form(request):
     else:
         form = ContactForm()
 
-    context = {
-        'form': form,
-    }
+        context = {
+            'form': form,
+        }
     return render(request, template, context)

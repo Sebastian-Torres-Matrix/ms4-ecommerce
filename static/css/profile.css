@@ -1,3 +1,5 @@
+/* css for profile.html */
+
 .order-history {
     max-height: 41.6rem; /* height of profile form + submit button */
     overflow-y: auto;

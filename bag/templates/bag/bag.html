@@ -44,6 +44,7 @@
                 <p class="my-0"><strong>{{ item.product.price }}€</strong></p>
               </td>
               <td class="py-3 w-25">
+              <!-- adjust quantity in shopping bag - increment or decrement-->
                 <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                   {% csrf_token %}
                   <div class="form-group">
@@ -66,6 +67,7 @@
                     </div>
                   </div>
                 </form>
+                <!-- adjust products in shopping bag - remove or update-->
                 <a class="remove-item text-danger float-left" id="remove_{{ item.item_id }}"><small>Remove</small></a>
                 <a class="update-link text-info float-right"><small>Update</small></a>
     
@@ -90,6 +92,7 @@
               </td>
             </tr>
             <tr>
+            <!-- buttons -->
               <td colspan="4" class="text-right">
                 <a href="{% url 'products' %}" class="btn btn-black rounded-0 btn-lg">
                   <span class="icon">
@@ -104,10 +107,12 @@
                   </span>
                 </a>
               </td>
+              <!-- /buttons -->
             </tr>
           </table>
         </div>
         {% else %}
+        <!-- if shopping bag is empty -->
         <p class="text-center mb-5">Your shopping bag is empty!</p>
         <a href="{% url 'products' %}" class="btn btn-black rounded-0 btn-lg ml-5">
           <span class="icon">
@@ -120,6 +125,7 @@
     </div>
   </div>
 {% endblock %} 
+<!--loading scripts-->
 {% block postloadjs %} 
 {{ block.super }}
 <script type="text/javascript" src="{% static 'js/bag.js' %}"></script>
