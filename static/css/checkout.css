@@ -1,21 +1,28 @@
 /* stripe checkout */
 .StripeElement,
 .stripe-style-input {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 4rem;
   padding: 1rem 1.2rem;
   border: 0.1rem solid transparent;
   border-radius: 0rem;
   background-color: white;
-  box-shadow: 0 0.1rem 0.3rem 0 #e6ebf1;
+  -webkit-box-shadow: 0 0.1rem 0.3rem 0 #e6ebf1;
+          box-shadow: 0 0.1rem 0.3rem 0 #e6ebf1;
   -webkit-transition: box-shadow 150ms ease;
+  -webkit-transition: -webkit-box-shadow 150ms ease;
+  transition: -webkit-box-shadow 150ms ease;
+  -o-transition: box-shadow 150ms ease;
   transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease, -webkit-box-shadow 150ms ease;
 }
 
 .StripeElement--focus,
 .stripe-style-input:focus,
 .stripe-style-input:active {
-  box-shadow: 0 0.1rem 0.3rem 0 #cfd7df;
+  -webkit-box-shadow: 0 0.1rem 0.3rem 0 #cfd7df;
+          box-shadow: 0 0.1rem 0.3rem 0 #cfd7df;
 }
 
 .StripeElement--webkit-autofill {
@@ -60,9 +67,15 @@ select option[value=""] {
 }
 
 .loading-spinner {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0;
     height: 100%;
 }

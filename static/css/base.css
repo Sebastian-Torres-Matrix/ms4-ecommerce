@@ -87,14 +87,22 @@ a,
 /* from Bulma */
 
 .icon {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 1.5rem;
   width: 1.5rem;
 }
 
 .main-logo-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -117,8 +125,8 @@ a,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-  background: #fff;
-  color: #;
+  background: #555;
+  color: #fff;
   border: 0.1rem solid #000;
 }
 
@@ -164,7 +172,9 @@ a,
 }
 
 .hover-scale:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 /* bootstrap toasts */
@@ -183,41 +193,6 @@ a,
 .toast-capper {
   height: 0.2rem;
 }
-
-/* arrows - colors from Bootstrap */
-/*
-.arrow-primary {
-    border-bottom-color: #007bff !important;
-}
-
-.arrow-secondary {
-    border-bottom-color: #6c757d !important;
-}
-
-.arrow-success {
-    border-bottom-color: #28a745 !important;
-}
-
-.arrow-danger {
-    border-bottom-color: #dc3545 !important;
-}
-
-.arrow-warning {
-    border-bottom-color: #ffc107 !important;
-}
-
-.arrow-info {
-    border-bottom-color: #17a2b8 !important;
-}
-
-.arrow-light {
-    border-bottom-color: #f8f9fa !important;
-}
-
-.arrow-dark {
-    border-bottom-color: #343a40 !important;
-}
-*/
 
 /* shopping bag */
 .bag-notification-wrapper {
@@ -240,6 +215,8 @@ a,
   display: block;
   text-align: center;
   padding: 1.6rem;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #fff;
   font-size: 1.6rem;
@@ -274,10 +251,19 @@ a,
   background: #bb0000;
 }
 
+/* icons */
+
 .icon-size {
     font-size: 3rem;
 }
 
+.fa,
+.fab {
+    font-size: 2rem;
+}
+
+.fa-shopping-cart,
+.fa-user,
 .fa-truck {
     font-size: 1.6rem;
 }
@@ -319,8 +305,16 @@ a,
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
@@ -378,13 +372,12 @@ a,
 /* Media Queries */
 
 /* Slightly larger container on xl screens */
-/*
+
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
-*/
 
 /* navbar - media queries  */
 @media (min-width: 992px) {

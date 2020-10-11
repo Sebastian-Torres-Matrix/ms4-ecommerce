@@ -16,13 +16,13 @@
   <div class="container jumbotron w-50">
     <div class="row">
       <div class="col w-50">
-        <h2 class="text-uppercase text-center my-2"><strong>My Profile</strong></h2>
-        <hr />
+        <h2 class="mb-4 pt-1 text-uppercase text-underline text-center font-weight-bold">My Profile</h2>
+        <hr/>
       </div>
     </div>
     <div class="row">
       <div class="col-12 ">
-        <p><u>Delivery Information:</u></p>
+        <p class="text-underline">Delivery Information:</p>
         <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
           {% csrf_token %} 
           {{ form|crispy }}
@@ -33,7 +33,7 @@
       </div>
       <div class="col-12">
         <hr />
-        <p class="mt-4"><u>Order History:</u></p>
+        <p class="mt-4 text-underline">Order History:</p>
         <div class="order-history table-responsive">
           <table class="table table-sm table-borderless">
             <thead>
@@ -77,5 +77,5 @@
 <!-- load scripts -->
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript" src="{% static 'js/countryfield.js' %}"></script>
+<script src="{% static 'js/countryfield.js' %}"></script>
 {% endblock %}

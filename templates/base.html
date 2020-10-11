@@ -35,10 +35,11 @@
                     <h2 class="font-weight-bold text-uppercase text-black my-0 hover-underline">Electronic Demands</h2>
                 </a>
             </div>
+            <!-- search bar -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search products">
+                        <input class="text-size form-control border border-black rounded-0" type="text" name="q" placeholder="Search products">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                                 <span class="icon">
@@ -145,7 +146,7 @@
     {% block extra_js %}
     {% endblock %}
     {% block postloadjs %}
-    <script type="text/javascript" src="{% static 'js/toast.js' %}"></script>
+    <script src="{% static 'js/toast.js' %}"></script>
     {% endblock %}
   </body>
 </html>
