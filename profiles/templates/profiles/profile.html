@@ -12,8 +12,8 @@
 </div>
 {% endblock %} 
 {% block content %}
-<div class="container h-100">
-  <div class="container jumbotron w-50">
+<div class="container">
+  <div class="container jumbotron w-50" id="jumbotron-mobile">
     <div class="row">
       <div class="col w-50">
         <h2 class="mb-4 pt-1 text-uppercase text-underline text-center font-weight-bold">My Profile</h2>
@@ -37,7 +37,7 @@
         <div class="order-history table-responsive">
           <table class="table table-sm table-borderless">
             <thead>
-              <tr>
+              <tr class="h2">
                 <th>Order Number</th>
                 <th>Date</th>
                 <th>Items</th>
@@ -46,7 +46,7 @@
             </thead>
             <tbody>
               {% for order in orders %}
-              <tr>
+              <tr class="h3">
               <!-- order historry traceback -->
                 <td>
                   <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
@@ -57,7 +57,7 @@
                 <td>
                   <ul class="list-unstyled">
                     {% for item in order.lineitems.all %}
-                    <li class="small">
+                    <li>
                       {{ item.product.name }} x{{ item.quantity }}
                     </li>
                     {% endfor %}

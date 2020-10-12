@@ -416,6 +416,14 @@ h6,
   }
 }
 
+
+@media (max-width: 991px) {
+  #jumbotron-mobile {
+    width: 80% !important;
+  }
+}
+
+
 /* navbar - media queries  */
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
