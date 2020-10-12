@@ -413,6 +413,10 @@ h6,
   .allauth-form-mobile {
     width: 90% !important;
   }
+
+  .header-mobile {
+      font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {

@@ -1,5 +1,5 @@
 # ELECTRONIC DEMANDS :computer:
-![Multi Device Website Mockup]()
+![Multi Device Website Mockup](static/images/mockup-image.JPG)
 Visit the live website: [Electronic Demands](https://electronic-demands.herokuapp.com/) 
 
 ## Introduction 
