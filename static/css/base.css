@@ -5,6 +5,10 @@
     font-size: 1.4rem;
 }
 
+.text-line-height {
+    line-height: 1.4;
+}
+
 * {
   margin: 0;
   padding: 0;
