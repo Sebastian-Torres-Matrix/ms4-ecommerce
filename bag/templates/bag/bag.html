@@ -33,13 +33,13 @@
             <tr class="text-center">
               <td class="p-3 w-25 text-center">
                 <img class="img-fluid rounded pb-3" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                <p class="my-0 small text-muted">
+                <p class="my-0 h5 font-weight-bold">{{ item.product.name }}</p>
+                <p class="my-0 h6 text-muted">
                   Article.nr: {{ item.product.sku|upper }}
                 </p>
               </td>
               <td class="py-3">
-                <p class="my-0"><strong>{{ item.product.price }}€</strong></p>
+                <p class="my-0 h5 font-weight-bold">{{ item.product.price }}€</p>
               </td>
               <td class="py-3 w-25">
               <!-- adjust quantity in shopping bag - increment or decrement-->
@@ -66,25 +66,25 @@
                   </div>
                 </form>
                 <!-- adjust products in shopping bag - remove or update-->
-                <a class="update-link text-info float-right"><small>Update</small></a>
-                <a class="remove-item text-danger text-underline float-left" id="remove_{{ item.item_id }}"><small>Remove</small></a>    
+                <a class="update-link text-info h6 float-right">Update</a>
+                <a class="remove-item text-danger text-underline h6 float-left" id="remove_{{ item.item_id }}">Remove</a>    
               </td>
               <td class="py-3">
-                <p class="my-0">
-                  <strong>{{ item.product.price | calc_subtotal:item.quantity }}€</strong>
+                <p class="my-0 h5 font-weight-bold">
+                  {{ item.product.price | calc_subtotal:item.quantity }}€
                 </p>
               </td>
             </tr>
             {% endfor %}
             <tr>
               <td colspan="4" class="pt-3 text-right">
-                <h6><strong>Bag Total: {{ total|floatformat:2 }}€</strong></h6>
-                <h6>Delivery: {{ delivery|floatformat:2 }}€</h6>
-                <h4 class="mt-4">
-                  <strong>Total: {{ grand_total|floatformat:2 }}€</strong>
+                <h5 class="font-weight-bold">Bag Total: {{ total|floatformat:2 }}€</h5>
+                <h5>Delivery: {{ delivery|floatformat:2 }}€</h5>
+                <h4 class="font-weight-bold mt-4">
+                 Total: {{ grand_total|floatformat:2 }}€
                 </h4>
                 {% if free_delivery_delta > 0 %}
-                <p class="mb-1 text-danger">Free delivery by spending just<strong>{{ free_delivery_delta }}€</strong> more!</p>
+                <p class="mb-1 h5 text-danger">Free delivery by spending just<strong>{{ free_delivery_delta }}€</strong> more!</p>
                 {% endif %}
               </td>
             </tr>
@@ -95,10 +95,10 @@
                   <span class="icon">
                     <i class="fas fa-chevron-left"></i>
                   </span>
-                  <span class="text-uppercase">Keep Shopping</span>
+                  <span class="text-uppercase h5">Keep Shopping</span>
                 </a>
                 <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
-                  <span class="text-uppercase">Secure Checkout</span>
+                  <span class="text-uppercase h5">Secure Checkout</span>
                   <span class="icon">
                     <i class="fas fa-lock"></i>
                   </span>
