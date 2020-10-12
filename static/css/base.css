@@ -425,9 +425,24 @@ h6,
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
   .jumbotron-mobile {
     width: 75% !important;
+  }
+  .jumbotron-mobile-90 {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .allauth-form-mobile {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .allauth-form-mobile {
+    width: 80% !important;
   }
 }
 
@@ -446,6 +461,8 @@ h6,
     padding-top: 16.4rem;
   }
 }
+
+
 
 @media (max-width: 991px) {
   .header-container {
