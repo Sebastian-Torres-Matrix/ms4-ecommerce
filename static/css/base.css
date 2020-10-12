@@ -66,10 +66,7 @@ h5,
 }
 
 h6,
-.h6 {
-    font-size: 1rem;
-}
-
+.h6, 
 #banner-text {
     font-size: 1rem;
 }
@@ -437,6 +434,18 @@ h6,
 
   .header-container {
     padding-top: 11.6rem;
+  }
+  
+  .mobile-navlinks {
+    width: 75%;
+  }
+
+  .shopping-cart-mobile {
+      float: right;
+  }
+  
+  .fa-user-mobile {
+      left: 30%;
   }
 
   body {

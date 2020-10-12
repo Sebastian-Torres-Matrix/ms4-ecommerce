@@ -1,3 +1,4 @@
+<ul class="mx-auto mobile-navlinks">
 <li class="list-inline-item">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
@@ -6,7 +7,7 @@
         </div>
     </a>
     <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
-        <form class="form" method="GET" action="">
+        <form class="form" method="GET" action="{% url 'products' %}">
             <div class="input-group w-100">
                 <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
                 <div class="input-group-append">
@@ -20,14 +21,14 @@
         </form>
     </div>
 </li>
-<li class="list-inline-item dropdown">
-    <a class="nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<li class="list-inline-item dropdown fa-user-mobile">
+    <a class="nav-link d-block d-lg-none" href="#" id="user-option" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center text-black">
             <div><i class="fas fa-user fa-2x"></i></div>
             <p class="my-0">Account</p>
         </div>
     </a>
-    <div class="dropdown-menu border-0" aria-labelledby="user-options">
+    <div class="dropdown-menu border-0" aria-labelledby="user-option">
         {% if request.user.is_authenticated %}
             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -37,7 +38,7 @@
         {% endif %}
     </div>
 </li>
-<li class="list-inline-item">
+<li class="list-inline-item shopping-cart-mobile ">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
         <div class="text-center text-black">
             <div><i class="fas fa-shopping-cart fa-2x"></i></div>
@@ -51,3 +52,4 @@
         </div>
     </a>
 </li>
+</ul>

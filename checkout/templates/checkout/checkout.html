@@ -132,6 +132,7 @@
     </div>
     <div id="loading-overlay">
         <h1 class="text-light text-uppercase loading-spinner">
+        Loading
             <span class="icon">
                 <i class="fas fa-3x fa-sync-alt fa-spin"></i>
             </span>
@@ -145,5 +146,5 @@
     {{ stripe_public_key|json_script:"id_stripe_public_key" }}
     {{ client_secret|json_script:"id_client_secret" }}
     <script src="{% static 'js/stripe_elements.js' %}"></script>
-    <script type="text/javascript" src="{% static 'js/popover.js' %}"></script>
+    <script src="{% static 'js/popover.js' %}"></script>
 {% endblock %}
