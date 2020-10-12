@@ -287,8 +287,16 @@ h6,
 
 /* icons */
 
+/*
 .icon-size {
     font-size: 3rem;
+}
+*/
+
+.socialmedia-icon {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .fa,
