@@ -418,8 +418,8 @@ h6,
 
 
 @media (max-width: 991px) {
-  #jumbotron-mobile {
-    width: 80% !important;
+  .jumbotron-mobile {
+    width: 75% !important;
   }
 }
 
