@@ -11,8 +11,8 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-white text-center text-underline my-3">
-                <h1>Products</h1>
+            <div class="col text-white text-center text-underline text-uppercase my-3">
+                <h2>Products</h2>
             </div>
         </div>
         <!-- sort products by specific category -->
@@ -35,12 +35,12 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 order-md-first">
-                        <p class="text-white mt-3 text-center text-md-left">
+                        <h4 class="text-white mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
                                 <span><a class="text-white" href="{% url 'products' %}">Products Home</a> | </span>
                             {% endif %}
                             {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
-                        </p>
+                        </h4>
                     </div>
                 </div>
                 <!-- product cards -->
@@ -50,7 +50,7 @@
                             <div class="card h-100 border-0 pt-3">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                    <img class="card-img-top img-fluid" data-toggle="tooltip" data-placement="left" title="{{ product.name }}" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
@@ -58,25 +58,25 @@
                                 </a>
                                 {% endif %}
                                 <hr class="mb-0">
-                                <div class="card-body font-weight-bold bg-card-footer">
-                                    <p class="mb-0">{{ product.name }}</p>
+                                <div class="card-body bg-card-footer">
+                                    <p class="mb-0 font-weight-bold">{{ product.name }}</p>
                                 </div>
                                 <div class="card-footer bg-card-footer pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">{{ product.price }}€</p>
+                                            <p class="mb-0 text-left font-weight-bold">{{ product.price }}€</p>
                                             <!-- badges -->
                                             {% if product.category %}
-                                            <p class="small mt-1 mb-0">
-                                                <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                                                    <i class="fas fa-tag mr-1" data-toggle="tooltip" data-placement="left" title="Category"></i>{{ product.category.friendly_name }}
+                                            <p class="small py-2 mb-0" data-toggle="tooltip" data-placement="left" title="Category">
+                                                <a class="text-muted h5" href="{% url 'products' %}?category={{ product.category.name }}">
+                                                    <i class="fas fa-tag fa-md mr-1"></i>{{ product.category.friendly_name }}
                                                 </a>
                                             </p>
                                             {% endif %}
                                             {% if product.rating %}
-                                                <small class="text-muted"><i class="fas fa-star mr-1" data-toggle="tooltip" data-placement="left" title="Rating"></i>{{ product.rating }} / 5</small>
+                                                <small class="text-muted h5"><i class="fas fa-star fa-sm mr-1" data-toggle="tooltip" data-placement="left" title="Rating"></i>{{ product.rating }} / 5</small>
                                             {% else %}
-                                                <small class="text-muted">No Rating</small>
+                                                <small class="text-muted h5" data-toggle="tooltip" data-placement="left" title="Rating">No Rating</small>
                                             {% endif %}
                                             <!-- buttons -->
                                             <div class="text-center mt-3">

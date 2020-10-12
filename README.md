@@ -1,4 +1,3 @@
-# TITLE
 # ELECTRONIC DEMANDS :computer:
 ![Multi Device Website Mockup]()
 Visit the live website: [Electronic Demands](https://electronic-demands.herokuapp.com/) 
@@ -80,7 +79,7 @@ __Icons__
 * Icons are being applied from [Font Awesome](https://fontawesome.com/)
 
  __Typography__
-Google Fonts were used across the site:
+* Google Fonts were used across the site:
 [Lora](https://fonts.google.com/specimen/Lora?query=lora) is the primary font used throughout the project
 Sans-serif was chosen as the fallback font
 
