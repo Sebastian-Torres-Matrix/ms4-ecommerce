@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap");
 
-.form-control,
-#sort-selector {
-    font-size: 1.4rem;
-}
-
-.text-line-height {
-    line-height: 1.4;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -91,6 +82,10 @@ h6,
   text-decoration: underline;
 }
 
+.text-line-height {
+    line-height: 1.4;
+}
+
 /* background colors */
 
 .bg-grey,
@@ -115,28 +110,6 @@ h6,
 
 .btn-size {
    font-size: 1.6rem;
-}
-
-/* from Bulma */
-
-.icon {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 1.6rem;
-  width: 1.6rem;
-}
-
-.main-logo-link {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 /* buttons */
@@ -211,7 +184,7 @@ h6,
           transform: scale(1.2);
 }
 
-/* bootstrap toasts */
+/* toasts */
 
 .message-container {
   position: fixed;
@@ -236,6 +209,7 @@ h6,
 }
 
 /* Fixed icon bar - vertically aligned 50% from the top */
+
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -245,6 +219,7 @@ h6,
 }
 
 /* sidebar icons links */
+
 .icon-bar a {
   display: block;
   text-align: center;
@@ -257,6 +232,7 @@ h6,
 }
 
 /* social media - sidebar icons colors */
+
 .icon-bar {
   color: #fff;
 }
@@ -287,12 +263,6 @@ h6,
 
 /* icons */
 
-/*
-.icon-size {
-    font-size: 3rem;
-}
-*/
-
 .socialmedia-icon {
   color: #fff;
   padding: 1rem;
@@ -311,6 +281,28 @@ h6,
 
 .close-icon {
     font-size: 2.5rem;
+}
+
+/* from Bulma */
+
+.icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.main-logo-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 /* Allauth forms */
@@ -373,8 +365,9 @@ h6,
   color: #17a2b8;
 }
 
-.display-4.logo-font.text-black {
-  font-size: 2rem;
+.form-control,
+#sort-selector {
+    font-size: 1.4rem;
 }
 
 /* navbar */
@@ -416,24 +409,6 @@ h6,
 
 /* Media Queries */
 
-/* Slightly larger container on xl screens */
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-
-@media (max-width: 991.98px) {
-  .jumbotron-mobile {
-    width: 75% !important;
-  }
-  .jumbotron-mobile-90 {
-    width: 90% !important;
-  }
-}
-
 @media (max-width: 575.98px) {
   .allauth-form-mobile {
     width: 90% !important;
@@ -447,7 +422,24 @@ h6,
 }
 
 
-/* navbar - media queries  */
+@media (max-width: 991.98px) {
+  .jumbotron-mobile {
+    width: 75% !important;
+  }
+
+  .jumbotron-mobile-90 {
+    width: 90% !important;
+  }
+
+  .header-container {
+    padding-top: 11.6rem;
+  }
+
+  body {
+    height: calc(100vh - 11.6rem);
+  }
+}
+
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
     position: fixed;
@@ -462,15 +454,8 @@ h6,
   }
 }
 
-
-
-@media (max-width: 991px) {
-  .header-container {
-    padding-top: 11.6rem;
-  }
-
-/* body - media queries  */
-  body {
-    height: calc(100vh - 11.6rem);
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
   }
 }

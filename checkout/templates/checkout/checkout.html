@@ -87,9 +87,9 @@
 								<label class="form-check-label h5" for="id-save-info">Save this delivery information to my profile</label>
                                 <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info" checked>
 							{% else %}
-								<label class="form-check-label" for="id-save-info">
-                                    <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or 
-                                    <a class="text-info" href="{% url 'account_login' %}">login</a> to save this information
+								<label class="form-check-label h5" for="id-save-info">
+                                    <a class="text-info h5" href="{% url 'account_signup' %}">Create an account</a> or 
+                                    <a class="text-info h5" href="{% url 'account_login' %}">login</a> to save this information
                                 </label>
 							{% endif %}
 						</div>
@@ -103,7 +103,7 @@
                     </fieldset>
                     <!-- popover bootstrap -->
                     <p><i class="fas fa-info-circle fa-lg ml-4" data-container="body" data-toggle="popover" data-placement="bottom" 
-                    data-content="For testing checkout. Fill Card number: 4242 4242 4242 4242 | MM/YY: any four digit numbers | CVC: any four digit numbers"></i></p>
+                    data-content="For testing checkout. Fill Card number: 4242 4242 4242 4242 | MM/YY: any four digit numbers | CVC: any three digit numbers | Postal code: any five digit numbers"></i></p>
                     <div class="submit-button text-right mt-5 mb-2"> 
                     <!-- buttons -->                   
 						<a href="{% url 'view_bag' %}" class="btn btn-black rounded-0">
@@ -133,7 +133,7 @@
     <div id="loading-overlay">
         <h1 class="text-light text-uppercase loading-spinner">
             <span class="icon">
-                <i class="fas fa-3x fa-sync-alt fa-spin fa-3x"></i>
+                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
             </span>
         </h1>
     </div>
